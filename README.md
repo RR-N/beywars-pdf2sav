@@ -19,7 +19,7 @@ In Git Bash:
 
 
 1. Configure config.ini according to examples.
-	- The value of `validation-policy` determines what the program will do if an answer's data type does not match the one expected:
+	- The value of `validation-policy` under the `DEFAULT` section determines what the program will do if an answer's data type does not match the one expected:
 		 |Validation Policy|Description|   
 		 |----|----|      
          |`continue`|Extract value and write to **.sav** regardless of type.|    
