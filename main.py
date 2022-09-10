@@ -61,7 +61,8 @@ config.read('config.ini')
 labels = [config[each_section]['label'] for each_section in config.sections()]
 types = [config[each_section]['type'] for each_section in config.sections()]
 
-text2art("Beywars Converter",font='alligator2')
+print(text2art("\n\nBeywars",font='alligator2'))
+print(text2art("PDF2SAV",font='alligator2'))
 print("\nSettings extracted from config.ini:")
 
 if config['DEFAULT']['validation_policy'].lower() == 'ask':
