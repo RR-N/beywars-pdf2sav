@@ -1,6 +1,6 @@
 ## BEYWARS PDF2SAV
 
-This program loads **.pdf**, extracts all of its interactive elements, and generates a **.sav** file according to specifications delineated in an accompanying config file. Features include (optional) type validation, flexible field selection, and... well, that's about it.
+This program loads **.pdf** files, extracts their interactive elements, and generates a **.sav** file according to specifications delineated in an accompanying config file. Features include (optional) type validation, flexible field selection, and... well, that's about it.
 
 Written on request.
 
