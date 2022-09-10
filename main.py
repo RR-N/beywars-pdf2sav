@@ -1,5 +1,5 @@
 import os
-from art import text2art
+from art import text2art #shut up
 import configparser
 import pandas as pd
 import pyreadstat
@@ -9,7 +9,6 @@ response_dir = 'input'
 spss_dir = 'output/spss'
 proc_dir = 'output/processed_pdfs'
 skipped_files = []
-master_dict = {}
 file_count = 0
 
 def pdfProcessor(filename, file):
